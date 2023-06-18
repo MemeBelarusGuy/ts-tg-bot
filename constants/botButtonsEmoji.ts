@@ -1,0 +1,12 @@
+export const HELP='🆘'
+export const DOG_IMAGE='🐩'
+export const CAT_IMAGE='🐈'
+
+export const WEATHER=' ☁️'
+export const DOLLAR='$'
+export const EURO='€'
+export const ADVICE='📖'
+export const JOKE='😛'
+export const SEARCH='🔍'
+export const NEWS='📰'
+export const TASKS='📝'
