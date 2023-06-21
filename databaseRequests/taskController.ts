@@ -1,5 +1,5 @@
-import TaskModel from '../models/task.ts'
-import UserModel from '../models/user.ts'
+import TaskModel from '../models/task'
+import UserModel from '../models/user'
 import {ObjectId} from "mongodb";
 
 export const getUserTasks = async (username:string) => {

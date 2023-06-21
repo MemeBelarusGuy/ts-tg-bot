@@ -1,6 +1,6 @@
 import axios from "axios";
-import {bot} from "../index.ts";
-import {catQuery, dollarQuery} from "../constants/botButtonsQuery.ts";
+import {bot} from "../index";
+import {catQuery, dollarQuery} from "../constants/botButtonsQuery";
 import {
     botOptions,
     currencyOptionsEUR,

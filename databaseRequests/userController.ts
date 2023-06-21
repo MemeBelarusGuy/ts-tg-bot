@@ -1,4 +1,4 @@
-import UserModel from '../models/user.ts'
+import UserModel from '../models/user'
 
 export const register = async (username:string) => {
     const isExist = await UserModel.findOne({username})

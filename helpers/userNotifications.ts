@@ -5,10 +5,10 @@ import {
     taskOptionsExist,
     weatherOptionsEmpty,
     weatherOptionsExist
-} from "../botCommands/buttonOptions.ts";
-import {getCurrency, getWeather} from "../botAPI/botApiFunctions.ts";
-import {addCurrencyNotify, deleteCurrencyNotify, getUserNotifications} from "../databaseRequests/userController.ts";
-import {dollarQuery, euroQuery} from "../constants/botButtonsQuery.ts";
+} from "../botCommands/buttonOptions";
+import {getCurrency, getWeather} from "../botAPI/botApiFunctions";
+import {addCurrencyNotify, deleteCurrencyNotify, getUserNotifications} from "../databaseRequests/userController";
+import {dollarQuery, euroQuery} from "../constants/botButtonsQuery";
 import {ITask} from "../Types/task";
 import {minute, morningWeatherNotification, twoHoursInMins} from "../constants/functionNumbers";
 import {dateFormat} from "./APIHelpers";

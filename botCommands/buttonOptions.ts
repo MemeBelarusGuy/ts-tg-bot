@@ -1,4 +1,4 @@
-import {ADVICE, CAT_IMAGE, DOG_IMAGE, DOLLAR, EURO, HELP, JOKE, NEWS, SEARCH, TASKS, WEATHER} from "../constants/botButtonsEmoji.ts";
+import {ADVICE, CAT_IMAGE, DOG_IMAGE, DOLLAR, EURO, HELP, JOKE, NEWS, SEARCH, TASKS, WEATHER} from "../constants/botButtonsEmoji";
 import {
     addCityQuery,
     adviceQuery,
@@ -12,7 +12,7 @@ import {
     searchQuery,
     tasksQuery,
     weatherQuery
-} from "../constants/botButtonsQuery.ts";
+} from "../constants/botButtonsQuery";
 import {Markup} from "telegraf";
 import {addButton, createButton, deleteButton, editButton, findButton} from "../constants/buttonCommands";
 

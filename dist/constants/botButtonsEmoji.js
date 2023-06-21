@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.TASKS = exports.NEWS = exports.SEARCH = exports.JOKE = exports.ADVICE = exports.EURO = exports.DOLLAR = exports.WEATHER = exports.CAT_IMAGE = exports.DOG_IMAGE = exports.HELP = void 0;
+exports.HELP = '🆘';
+exports.DOG_IMAGE = '🐩';
+exports.CAT_IMAGE = '🐈';
+exports.WEATHER = ' ☁️';
+exports.DOLLAR = '$';
+exports.EURO = '€';
+exports.ADVICE = '📖';
+exports.JOKE = '😛';
+exports.SEARCH = '🔍';
+exports.NEWS = '📰';
+exports.TASKS = '📝';
