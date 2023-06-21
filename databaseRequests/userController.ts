@@ -30,8 +30,8 @@ export const getUserNotifications = async (username:string) => {
 }
 export const addWeatherNotify = async (username:string, city:string) => {
     const user = await UserModel.findOne({username})
-    const exp = new RegExp(city, "gi")
-    if (user && !user.weather.join("").match(exp)) {
+    const pattern = new RegExp(city, "gi")
+    if (user && !user.weather.join("").match(pattern)) {
         user.weather.push(city);
         await user.save();
         return 1;
